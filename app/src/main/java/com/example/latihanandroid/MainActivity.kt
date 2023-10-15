@@ -54,6 +54,10 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         val btnMoveRecycleViewActivity:Button = findViewById(R.id.btn_move_to_recycle_view)
         btnMoveRecycleViewActivity.setOnClickListener(this)
 
+
+        val btnMoveCalculateActivity:Button = findViewById(R.id.btn_move_to_calculate_view)
+        btnMoveCalculateActivity.setOnClickListener(this)
+
 //        val btnMoveToConstraintLayoutActivity = findViewById(R.id.btn_move_to_constraint_layout)
     }
 
@@ -115,6 +119,10 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             R.id.btn_move_to_recycle_view ->{
                 val moveToRecycleViewActivity = Intent(this@MainActivity, MoveRecycleViewActivity::class.java)
                 startActivity(moveToRecycleViewActivity)
+            }
+            R.id.btn_move_to_calculate_view -> {
+                val moveCalculateActivity = Intent(this@MainActivity, CalculateActivity::class.java)
+                startActivity(moveCalculateActivity)
             }
         }
     }

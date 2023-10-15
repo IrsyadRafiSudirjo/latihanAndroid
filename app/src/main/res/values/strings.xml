@@ -47,6 +47,7 @@
     <string name="btn_move_to_recycle_view">Pindah ke recycler view</string>
     <string name="txt_contoh">Contoh</string>
     <string name="txt_input">Name</string>
+    <string name="move_to_calculate_view">Pindah ke calculate Activity</string>
 
 
     <string-array name="data_name">
@@ -82,4 +83,11 @@
         <item>@drawable/sukarno</item>
         <item>@drawable/supomo</item>
     </integer-array>
+
+
+    <string name="width">Lebar</string>
+    <string name="result">Hasil</string>
+    <string name="calculate">Hitung</string>
+    <string name="height">Tinggi</string>
+    <string name="length">Panjang</string>
 </resources>
