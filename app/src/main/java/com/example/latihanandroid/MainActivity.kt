@@ -75,7 +75,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                 val moveWithDataIntent = Intent(this@MainActivity, MoveWithDataActivity::class.java)
 
                 //menyimpan variable pada intent dengan key yang sesuai di activity yang dituju
-                moveWithDataIntent.putExtra(MoveWithDataActivity.EXTRA_NAME, "DicodingAcademy Boy")
+                moveWithDataIntent.putExtra(MoveWithDataActivity.EXTRA_NAME, "MIR")
                 moveWithDataIntent.putExtra(MoveWithDataActivity.EXTRA_AGE, 5)
                 startActivity(moveWithDataIntent)
             }
@@ -83,9 +83,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             R.id.btn_move_activity_object -> {
                 //Membuat object person
                 val person = Person(
-                    "DicodingAcademy",
+                    "MIR",
                     5,
-                    "academy@dicoding.com",
+                    "mir@safarma.com",
                     "Bandung"
                 )
 
